@@ -1,0 +1,46 @@
+﻿body {
+    background-color: #60D6A9;
+    font-family: Arial, sans-serif;
+}
+
+header{
+    background-color: #007046;
+    width: 900px;
+    height: 150px;
+    font-family: Papyrus, sans-serif;
+    font-size: 35px;
+    color: white;
+    text-align: center;
+    font-weight: bold;
+}
+
+.menu {
+    background-color: #20815D;
+    width: 900px;
+    height: 20px;
+    margin-left: 20px;
+}
+
+.content {
+    background-color: #35D699;
+    width: 900px;
+    height: 550px;
+}
+
+ul > a {
+    background-color: #60D6A9;
+    color: white;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+ul > a:hover {
+    color: white;
+    background-color: 60D6A9;
+}
+
+.form_bestellung {
+    width: 250px;
+    height: 20px;
+    margin-bottom: 5px;
+}
