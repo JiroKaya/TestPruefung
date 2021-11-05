@@ -19,8 +19,8 @@
         </header>
         <div class"menu">
             <ul>
-                <a href="#">Besttellen</a>
-                <a href="#">Admin</a>
+                <a href="default.aspx">Bestellen</a>
+                <a href="admin.aspx">Admin</a>
             </ul>
         </div>
         <div class="content">

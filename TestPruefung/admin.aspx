@@ -15,22 +15,27 @@
     </p>
     <h2>Artikel Löschen</h2>
     <br>
-    <asp:TextBox ID="txtArtNrLöschen" runat="server" CssClass="form_bestellung" placeholder="Please enter your name"/>
+    <asp:TextBox ID="txtArtNrLöschen" runat="server" CssClass="form_bestellung" placeholder="Please enter the article id"/>
 	<asp:RequiredFieldValidator ID="rfvArtNrLöschen" ControlToValidate="txtArtNrLöschen" runat="server" />
     <br />
+
     <asp:Button ID="Button2" runat="server" CssClass="send_button" Text="Delete" OnClick="Delete_Article"/>
     <br />
     <br />
+
     <h2>Artikel editieren</h2>
     <br />
     <asp:TextBox ID="txtArtNr" runat="server" CssClass="form_bestellung" placeholder="Please enter the id of your wish item"/>
 	<asp:RequiredFieldValidator ID="rfvArtNr" ControlToValidate="txtArtNr" runat="server" />
     <br />
+
     <asp:TextBox ID="txtArtName" runat="server" CssClass="form_bestellung" placeholder="Please enter the name of your wish item"/>
 	<asp:RequiredFieldValidator ID="rfvArtName" ControlToValidate="txtArtName" runat="server" />
     <br />
+
     <asp:TextBox ID="txtArtPreis" runat="server" CssClass="form_bestellung" placeholder="Please enter the price of your wish item"/>
 	<asp:RequiredFieldValidator ID="rfvArtPreis" ControlToValidate="txtArtPreis" runat="server" />
     <br />
+
     <asp:Button ID="Button3" runat="server" CssClass="send_button" Text="Edit" OnClick="Edit_Article"/>
 </asp:Content>
